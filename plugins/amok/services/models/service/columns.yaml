@@ -1,0 +1,16 @@
+columns:
+    service_name:
+        label: 'amok.services::lang.service.name'
+        type: text
+        searchable: true
+        sortable: true
+    service_icon:
+        label: 'amok.services::lang.service.icon'
+        type: text
+        searchable: true
+        sortable: true
+    service_description:
+        label: 'amok.services::lang.plugin.description'
+        type: text
+        searchable: true
+        sortable: true

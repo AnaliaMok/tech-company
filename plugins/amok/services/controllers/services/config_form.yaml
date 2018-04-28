@@ -1,0 +1,10 @@
+name: Services
+modelClass: Amok\Services\Models\Service
+form: $/amok/services/models/service/fields.yaml
+defaultRedirect: amok/services/services
+create:
+    redirect: 'amok/services/services/update/:id'
+    redirectClose: amok/services/services
+update:
+    redirect: amok/services/services
+    redirectClose: amok/services/services

@@ -1,0 +1,19 @@
+fields:
+    service_name:
+        label: 'amok.services::lang.service.name'
+        span: auto
+        required: 1
+        type: text
+    service_icon:
+        label: 'amok.services::lang.service.icon'
+        span: auto
+        required: 1
+        preset:
+            field: service_icon
+            type: file
+        type: text
+    service_description:
+        label: 'amok.services::lang.service.description'
+        span: full
+        required: 1
+        type: text

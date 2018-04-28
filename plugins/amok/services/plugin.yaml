@@ -1,0 +1,11 @@
+plugin:
+    name: 'amok.services::lang.plugin.name'
+    description: 'Used to describe services that we offer'
+    author: amok
+    icon: oc-icon-shopping-cart
+    homepage: ''
+navigation:
+    services:
+        label: Service
+        url: amok/services/services
+        icon: icon-shopping-cart
