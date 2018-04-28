@@ -3,13 +3,25 @@ description = "Navigation bar"
 <section id="navbar" class="m-b-3">
 	<nav class="navbar navbar-dark bg-inverse navbar-fixed-top">
 		<div class="container">
-			<a class="navbar-brand" href="{{ 'features'|page }}">Bootstrap 4</a>
+			<a class="navbar-brand" href="{{ 'home'|page }}">Tech Company</a>
 			<ul class="nav navbar-nav pull-xs-right">
-				<li class="nav-item{{ this.page.baseFileName == 'features' ? ' active' }}">
-					<a class="nav-link" href="{{ 'features'|page }}">Features</a>
+				<li class="nav-item{{ this.page.baseFileName == 'home' ? ' active' }}">
+					<a class="nav-link" href="{{ 'home'|page }}">Home</a>
 				</li>
-				<li class="nav-item{{ this.page.baseFileName == 'author' ? ' active' }}">
-					<a class="nav-link" href="{{ 'author'|page }}">Author</a>
+				<li class="nav-item{{ this.page.baseFileName == 'about' ? ' active' }}">
+					<a class="nav-link" href="{{ 'about'|page }}">About</a>
+				</li>
+				<li class="nav-item{{ this.page.baseFileName == 'work' ? ' active' }}">
+					<a class="nav-link" href="{{ 'work'|page }}">Our Work</a>
+				</li>
+				<li class="nav-item{{ this.page.baseFileName == 'news' ? ' active' }}">
+					<a class="nav-link" href="{{ 'news'|page }}">News</a>
+				</li>
+				<li class="nav-item{{ this.page.baseFileName == 'careers' ? ' active' }}">
+					<a class="nav-link" href="{{ 'careers'|page }}">Careers</a>
+				</li>
+				<li class="nav-item{{ this.page.baseFileName == 'contact' ? ' active' }}">
+					<a class="nav-link" href="{{ 'contact'|page }}">Contact</a>
 				</li>
 			</ul>
 		</div>
