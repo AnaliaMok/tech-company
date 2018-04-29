@@ -1,0 +1,31 @@
+description = "Footer"
+==
+<footer class="bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-light">
+        <h2>Tech Company</h2>
+        <div class="footer__info">
+          <p>contact@techcompany.com</p>
+          <p>123.456.7890</p>
+        </div>
+        <div class="footer__socials">
+          <a href="#"><i class="fa fa-facebook-square"></i></a>
+          <a href="#"><i class="fa fa-twitter-square"></i> </a>   
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        {{ form_open({'url': 'foo/bar', 'class': 'pretty-form'}) }}
+          <div class="form-group">
+            <h4 class="text-light">Subscribe to our monthly newsletter!</h4>
+            <input type="email" class="form-control" placeholder="Email Address" />
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        {{ form_close() }}
+      </div>
+    </div>
+  </div>
+</footer>
