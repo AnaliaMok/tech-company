@@ -5,7 +5,7 @@
     <img src="{{ testimonial.headshot|media }}" alt="{{ testimonial.client_name }}">
     <div class="testimonials__item__content">
       <p class="testimonials__item__content__testimonial blockquote">
-        {{ testimonial.testimonial }}
+        {{ testimonial.testimonial|striptags }}
       </p>
       <p class="blockquote-footer">{{ testimonial.client_name }} - <cite title="{{ testimonial.company }}">{{testimonial.company }}</cite></p>
     </div>

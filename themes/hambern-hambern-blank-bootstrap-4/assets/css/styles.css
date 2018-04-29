@@ -40,3 +40,18 @@ footer{
 }
 
 /* Testimonials */
+.testimonials{
+  margin-bottom: 4rem;
+}
+.testimonials__item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials__item img{
+  max-width: 200px;
+  max-height: 200px;
+}
+.testimonials__item__content{
+  padding: 1rem;
+}
