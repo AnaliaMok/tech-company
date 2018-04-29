@@ -6,9 +6,13 @@ class Plugin extends PluginBase
 {
     public function registerComponents()
     {
+        return [
+            'Amok\Services\Components\Service' => 'services'
+        ];
     }
 
-    public function registerSettings()
-    {
-    }
+    // public function registerSettings()
+    // {
+        
+    // }
 }

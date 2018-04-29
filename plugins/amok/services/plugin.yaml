@@ -9,3 +9,4 @@ navigation:
         label: Service
         url: amok/services/services
         icon: icon-shopping-cart
+        order: '100'

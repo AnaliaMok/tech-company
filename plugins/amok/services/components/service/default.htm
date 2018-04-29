@@ -1,0 +1,10 @@
+{% set services = __SELF__.services %}
+<ul class="list-group">
+  {% for service in services %}
+  <li class="list-group-item">
+    <img src="{{ service.service_icon|media }}" alt="{{ service.service_name }}">
+    <h2>{{ service.service_name }}</h2>
+    <p>{{ service.service_description }}</p>
+  </li>
+  {% endfor %}
+</ul>
