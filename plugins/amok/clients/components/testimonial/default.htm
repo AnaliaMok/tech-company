@@ -1,0 +1,14 @@
+{% set testimonials = __SELF__.testimonials %}
+<section class="testimonials">
+  {% for testimonial in testimonials %}
+  <div class="testimonials__item">
+    <img src="{{ testimonial.headshot|media }}" alt="{{ testimonial.client_name }}">
+    <div class="testimonials__item__content">
+      <p class="testimonials__item__content__testimonial blockquote">
+        {{ testimonial.testimonial }}
+      </p>
+      <p class="blockquote-footer">{{ testimonial.client_name }} - <cite title="{{ testimonial.company }}">{{testimonial.company }}</cite></p>
+    </div>
+  </div>
+  {% endfor %}
+</section>

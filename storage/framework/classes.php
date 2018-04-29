@@ -79,4 +79,5 @@
   'amok\\clients\\Plugin' => 'plugins\\amok\\clients\\Plugin.php',
   'amok\\clients\\Controllers\\testimonials' => 'plugins\\amok\\clients\\controllers\\testimonials.php',
   'Amok\\Clients\\Models\\Testimonial' => 'plugins\\amok\\clients\\models\\Testimonial.php',
+  'Amok\\Clients\\Components\\Testimonial' => 'plugins\\amok\\clients\\components\\Testimonial.php',
 );
