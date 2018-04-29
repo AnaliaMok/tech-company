@@ -18,25 +18,25 @@ class __TwigTemplate_e3044b6d515ad6af668520fde9854ec113d13540bb2b39c773ca9c1542e
         // line 1
         $context["services"] = twig_get_attribute($this->env, $this->getSourceContext(), ($context["__SELF__"] ?? null), "services", array());
         // line 2
-        echo "<ul class=\"list-group\">
+        echo "<ul class=\"services\">
   ";
         // line 3
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["services"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["service"]) {
             // line 4
-            echo "  <li class=\"list-group-item\">
+            echo "  <li class=\"services__item\">
     <img src=\"";
             // line 5
             echo $this->env->getExtension('System\Twig\Extension')->mediaFilter(twig_get_attribute($this->env, $this->getSourceContext(), $context["service"], "service_icon", array()));
             echo "\" alt=\"";
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["service"], "service_name", array()), "html", null, true);
             echo "\">
-    <h2>";
+    <h2 class=\"services__item__title\">";
             // line 6
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["service"], "service_name", array()), "html", null, true);
             echo "</h2>
-    <p>";
+    <p class=\"services__item__descr\">";
             // line 7
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["service"], "service_description", array()), "html", null, true);
             echo "</p>
@@ -69,12 +69,12 @@ class __TwigTemplate_e3044b6d515ad6af668520fde9854ec113d13540bb2b39c773ca9c1542e
     public function getSourceContext()
     {
         return new Twig_Source("{% set services = __SELF__.services %}
-<ul class=\"list-group\">
+<ul class=\"services\">
   {% for service in services %}
-  <li class=\"list-group-item\">
+  <li class=\"services__item\">
     <img src=\"{{ service.service_icon|media }}\" alt=\"{{ service.service_name }}\">
-    <h2>{{ service.service_name }}</h2>
-    <p>{{ service.service_description }}</p>
+    <h2 class=\"services__item__title\">{{ service.service_name }}</h2>
+    <p class=\"services__item__descr\">{{ service.service_description }}</p>
   </li>
   {% endfor %}
 </ul>

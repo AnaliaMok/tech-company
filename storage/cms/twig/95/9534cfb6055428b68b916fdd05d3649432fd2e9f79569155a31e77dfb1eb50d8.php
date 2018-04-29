@@ -22,12 +22,15 @@ class __TwigTemplate_1099f6676596239f7bf1971c4f141e7eb0c108eb937f7a9e7c7b7b8a278
       ";
         // line 4
         $context['__placeholder_jumbotron_default_contents'] = null;        ob_start();        // line 5
-        echo "      <h1 class=\"display-3\">Bootstrap 4</h1>
+        echo "      <h1 class=\"display-3\">Tech Company</h1>
       <p class=\"lead\">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
       <hr class=\"m-y-2\">
       <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
       <p class=\"lead\">
-        <a class=\"btn btn-primary btn-lg\" href=\"#\" role=\"button\">Learn more</a>
+        <a class=\"btn btn-primary btn-lg\" href=\"";
+        // line 10
+        echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("about");
+        echo "\" role=\"button\">Learn more about us</a>
       </p>
       ";
         $context['__placeholder_jumbotron_default_contents'] = ob_get_clean();        // line 4
@@ -56,7 +59,7 @@ class __TwigTemplate_1099f6676596239f7bf1971c4f141e7eb0c108eb937f7a9e7c7b7b8a278
 
     public function getDebugInfo()
     {
-        return array (  42 => 17,  36 => 13,  34 => 4,  25 => 5,  24 => 4,  19 => 1,);
+        return array (  45 => 17,  39 => 13,  37 => 4,  32 => 10,  25 => 5,  24 => 4,  19 => 1,);
     }
 
     public function getSourceContext()
@@ -65,12 +68,12 @@ class __TwigTemplate_1099f6676596239f7bf1971c4f141e7eb0c108eb937f7a9e7c7b7b8a278
   <div class=\"jumbotron\">
     <div class=\"container text-xs-center\">
       {% placeholder jumbotron default %}
-      <h1 class=\"display-3\">Bootstrap 4</h1>
+      <h1 class=\"display-3\">Tech Company</h1>
       <p class=\"lead\">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
       <hr class=\"m-y-2\">
       <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
       <p class=\"lead\">
-        <a class=\"btn btn-primary btn-lg\" href=\"#\" role=\"button\">Learn more</a>
+        <a class=\"btn btn-primary btn-lg\" href=\"{{ 'about'|page }}\" role=\"button\">Learn more about us</a>
       </p>
       {% endplaceholder %}
     </div>

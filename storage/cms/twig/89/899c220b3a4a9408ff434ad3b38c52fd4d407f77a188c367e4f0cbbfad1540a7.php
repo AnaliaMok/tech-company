@@ -28,53 +28,53 @@ class __TwigTemplate_d078bb30475a742cc6a46a2f0ca88163837aa24a43a7475892823456a43
         echo "</title>
     <link href=\"";
         // line 8
-        echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter(array(0 => "assets/vendor/bootstrap/dist/css/bootstrap.min.css", 1 => "assets/vendor/font-awesome/css/font-awesome.min.css", 2 => "assets/vendor/animate.css/animate.min.css", 3 => "assets/vendor/plyr/dist/plyr.css"));
-        // line 13
+        echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter(array(0 => "assets/vendor/bootstrap/dist/css/bootstrap.min.css", 1 => "assets/vendor/font-awesome/css/font-awesome.min.css", 2 => "assets/vendor/animate.css/animate.min.css", 3 => "assets/vendor/plyr/dist/plyr.css", 4 => "assets/css/styles.css"));
+        // line 14
         echo "\" rel=\"stylesheet\">
     ";
-        // line 14
+        // line 15
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('css');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('styles');
-        // line 15
+        // line 16
         echo "
   </head>
   <body>
 
 \t";
-        // line 19
+        // line 20
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("navbar"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 20
+        // line 21
         echo "
   ";
-        // line 22
+        // line 23
         echo "
   <section id=\"page\" class=\"container\">
     ";
-        // line 24
-        echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
         // line 25
+        echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
+        // line 26
         echo "  </section>
 
     <script src=\"";
-        // line 27
+        // line 28
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter(array(0 => "assets/vendor/jquery/dist/jquery.min.js", 1 => "assets/vendor/tether/dist/js/tether.min.js", 2 => "assets/vendor/bootstrap/dist/js/bootstrap.min.js", 3 => "assets/vendor/wow/dist/wow.min.js", 4 => "assets/vendor/holderjs/holder.min.js", 5 => "assets/vendor/plyr/dist/plyr.js", 6 => "assets/js/scripts.js"));
-        // line 35
+        // line 36
         echo "\"></script>
     ";
-        // line 36
+        // line 37
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css">'.PHP_EOL;
-        // line 37
+        // line 38
         echo "    ";
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 38
+        // line 39
         echo "  </body>
 </html>";
     }
@@ -91,7 +91,7 @@ class __TwigTemplate_d078bb30475a742cc6a46a2f0ca88163837aa24a43a7475892823456a43
 
     public function getDebugInfo()
     {
-        return array (  78 => 38,  74 => 37,  67 => 36,  64 => 35,  62 => 27,  58 => 25,  56 => 24,  52 => 22,  49 => 20,  45 => 19,  39 => 15,  36 => 14,  33 => 13,  31 => 8,  27 => 7,  19 => 1,);
+        return array (  78 => 39,  74 => 38,  67 => 37,  64 => 36,  62 => 28,  58 => 26,  56 => 25,  52 => 23,  49 => 21,  45 => 20,  39 => 16,  36 => 15,  33 => 14,  31 => 8,  27 => 7,  19 => 1,);
     }
 
     public function getSourceContext()
@@ -107,7 +107,8 @@ class __TwigTemplate_d078bb30475a742cc6a46a2f0ca88163837aa24a43a7475892823456a43
       'assets/vendor/bootstrap/dist/css/bootstrap.min.css',
       'assets/vendor/font-awesome/css/font-awesome.min.css',
       'assets/vendor/animate.css/animate.min.css',
-      'assets/vendor/plyr/dist/plyr.css'
+      'assets/vendor/plyr/dist/plyr.css',
+      'assets/css/styles.css',
     ]|theme }}\" rel=\"stylesheet\">
     {% styles %}
 

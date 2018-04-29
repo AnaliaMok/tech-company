@@ -1,0 +1,18 @@
+/*
+ File name: styles.css
+ Description: Custom adjustments
+*/
+
+.services{
+  display: flex;
+  justify-content: center;
+}
+
+.services__item{
+  margin: 0 0.5rem;
+  list-style: none;
+  text-align: center;
+}
+.services__item__title{
+  margin-top: 0.5rem;
+}
