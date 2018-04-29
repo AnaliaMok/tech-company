@@ -1,0 +1,24 @@
+fields:
+    client_name:
+        label: 'amok.clients::lang.testimonial.client_name'
+        span: auto
+        required: 1
+        type: text
+    headshot:
+        label: 'amok.clients::lang.testimonial.headshot'
+        mode: file
+        span: left
+        required: 0
+        type: mediafinder
+    company:
+        label: 'amok.clients::lang.testimonial.company'
+        span: left
+        required: 1
+        type: text
+    testimonial:
+        label: 'amok.clients::lang.testimonial.testimonial'
+        size: large
+        span: left
+        required: 1
+        stretch: 0
+        type: richeditor

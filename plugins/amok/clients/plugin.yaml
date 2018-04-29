@@ -1,0 +1,21 @@
+plugin:
+    name: 'amok.clients::lang.plugin.name'
+    description: 'amok.clients::lang.plugin.description'
+    author: 'Analia Mok'
+    icon: oc-icon-building
+    homepage: ''
+navigation:
+    clients:
+        label: Clients
+        url: amok/clients/testimonials
+        icon: icon-building
+        order: '101'
+        sideMenu:
+            testimonials:
+                label: Testimonials
+                url: amok/clients/testimonials
+                icon: icon-comment-o
+            work:
+                label: Work
+                url: /
+                icon: icon-briefcase

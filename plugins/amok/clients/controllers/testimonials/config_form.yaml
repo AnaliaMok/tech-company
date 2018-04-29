@@ -1,0 +1,11 @@
+name: Testimonials
+modelClass: Amok\Clients\Models\Testimonial
+form: $/amok/clients/models/testimonial/fields.yaml
+defaultRedirect: amok/clients/testimonials
+create:
+    redirect: 'amok/clients/testimonials/update/:id'
+    redirectClose: amok/clients/testimonials
+update:
+    redirect: amok/clients/testimonials
+    redirectClose: amok/clients/testimonials
+preview: {  }

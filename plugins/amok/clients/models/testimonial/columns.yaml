@@ -1,0 +1,16 @@
+columns:
+    client_name:
+        label: 'amok.clients::lang.testimonial.client_name'
+        type: text
+        searchable: true
+        sortable: true
+    headshot:
+        label: 'amok.clients::lang.testimonial.headshot'
+        type: text
+        searchable: true
+        sortable: true
+    company:
+        label: 'amok.clients::lang.testimonial.company'
+        type: text
+        searchable: true
+        sortable: true

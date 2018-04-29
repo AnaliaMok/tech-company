@@ -75,4 +75,8 @@
   'RainLab\\Builder\\Components\\RecordDetails' => 'plugins\\rainlab\\builder\\components\\RecordDetails.php',
   'RainLab\\Builder\\Classes\\ComponentHelper' => 'plugins\\rainlab\\builder\\classes\\ComponentHelper.php',
   'Amok\\Services\\Components\\Service' => 'plugins\\amok\\services\\components\\Service.php',
+  'amok\\testimonial\\Plugin' => 'plugins\\amok\\testimonial\\Plugin.php',
+  'amok\\clients\\Plugin' => 'plugins\\amok\\clients\\Plugin.php',
+  'amok\\clients\\Controllers\\testimonials' => 'plugins\\amok\\clients\\controllers\\testimonials.php',
+  'Amok\\Clients\\Models\\Testimonial' => 'plugins\\amok\\clients\\models\\Testimonial.php',
 );
