@@ -17,5 +17,5 @@ navigation:
                 icon: icon-comment-o
             work:
                 label: Work
-                url: /
+                url: amok/clients/works
                 icon: icon-briefcase

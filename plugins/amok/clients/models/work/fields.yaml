@@ -1,0 +1,75 @@
+tabs:
+    fields:
+        title:
+            label: 'amok.clients::lang.work.title'
+            span: left
+            required: 1
+            type: text
+            tab: Content
+        slug:
+            label: 'amok.clients::lang.work.slug'
+            span: auto
+            required: 1
+            preset:
+                field: title
+                type: slug
+            type: text
+            tab: Content
+        main_content:
+            label: 'amok.clients::lang.work.main_content'
+            size: giant
+            span: auto
+            type: richeditor
+            commentAbove: 'Include all content here if you either do not want to include a testimonial or want to display a testimonial at the bottom of all content'
+            tab: Content
+        sidebar_content:
+            label: 'amok.clients::lang.work.sidebar_content'
+            size: giant
+            span: auto
+            type: richeditor
+            commentAbove: 'Content to be displayed off to the side'
+            tab: Content
+        testimonial_id:
+            label: 'amok.clients::lang.work.testimonial'
+            nameFrom: client_name
+            descriptionFrom: column_name
+            prompt: 'No testimonials available'
+            list: $/amok/clients/models/testimonial/columns.yaml
+            span: left
+            type: recordfinder
+            commentAbove: '(Optional) Testimonial to display either in between or at end of all content. Depends on what is in main content and bottom content'
+            tab: Content
+        bottom_content:
+            label: 'amok.clients::lang.work.bottom_content'
+            size: giant
+            span: left
+            type: richeditor
+            commentAbove: '(Optional) Include content in here if you want to display a testimonial within the work content'
+            tab: Content
+        is_published:
+            label: 'amok.clients::lang.work.is_published'
+            span: left
+            type: checkbox
+            tab: Settings
+        featured_image:
+            label: 'amok.clients::lang.work.featured_image'
+            mode: file
+            span: left
+            type: mediafinder
+            tab: Settings
+        company:
+            label: 'amok.clients::lang.work.company'
+            span: left
+            type: text
+            tab: Settings
+        meta_title:
+            label: 'amok.clients::lang.work.meta_title'
+            span: left
+            type: text
+            tab: Settings
+        meta_description:
+            label: 'amok.clients::lang.work.meta_description'
+            span: left
+            size: huge
+            type: richeditor
+            tab: Settings

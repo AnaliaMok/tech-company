@@ -88,4 +88,6 @@
   'rainlab\\user\\Controllers\\users' => 'plugins\\rainlab\\user\\controllers\\users.php',
   'rainlab\\user\\Controllers\\usergroups' => 'plugins\\rainlab\\user\\controllers\\usergroups.php',
   'RainLab\\User\\Models\\Settings' => 'plugins\\rainlab\\user\\models\\Settings.php',
+  'amok\\clients\\Controllers\\works' => 'plugins\\amok\\clients\\controllers\\works.php',
+  'Amok\\Clients\\Models\\Work' => 'plugins\\amok\\clients\\models\\Work.php',
 );

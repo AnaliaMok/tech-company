@@ -1,0 +1,11 @@
+name: Works
+modelClass: Amok\Clients\Models\Work
+form: $/amok/clients/models/work/fields.yaml
+defaultRedirect: amok/clients/works
+create:
+    redirect: 'amok/clients/works/update/:id'
+    redirectClose: amok/clients/works
+update:
+    redirect: amok/clients/works
+    redirectClose: amok/clients/works
+preview: {  }

@@ -1,0 +1,26 @@
+columns:
+    title:
+        label: 'amok.clients::lang.work.title'
+        type: text
+        searchable: true
+        sortable: true
+    slug:
+        label: 'amok.clients::lang.work.slug'
+        type: text
+        searchable: true
+        sortable: true
+    company:
+        label: 'amok.clients::lang.work.company'
+        type: text
+        searchable: true
+        sortable: true
+    is_published:
+        label: 'amok.clients::lang.work.is_published'
+        type: number
+        searchable: true
+        sortable: true
+    updated_at:
+        label: 'Updated At'
+        type: datetime
+        searchable: true
+        sortable: true
