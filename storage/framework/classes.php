@@ -80,4 +80,12 @@
   'amok\\clients\\Controllers\\testimonials' => 'plugins\\amok\\clients\\controllers\\testimonials.php',
   'Amok\\Clients\\Models\\Testimonial' => 'plugins\\amok\\clients\\models\\Testimonial.php',
   'Amok\\Clients\\Components\\Testimonial' => 'plugins\\amok\\clients\\components\\Testimonial.php',
+  'backend\\Controllers\\users' => 'modules\\backend\\controllers\\users.php',
+  'backend\\Controllers\\userroles' => 'modules\\backend\\controllers\\userroles.php',
+  'rainlab\\user\\Plugin' => 'plugins\\rainlab\\user\\Plugin.php',
+  'RainLab\\User\\Models\\User' => 'plugins\\rainlab\\user\\models\\User.php',
+  'RainLab\\User\\Models\\UserGroup' => 'plugins\\rainlab\\user\\models\\UserGroup.php',
+  'rainlab\\user\\Controllers\\users' => 'plugins\\rainlab\\user\\controllers\\users.php',
+  'rainlab\\user\\Controllers\\usergroups' => 'plugins\\rainlab\\user\\controllers\\usergroups.php',
+  'RainLab\\User\\Models\\Settings' => 'plugins\\rainlab\\user\\models\\Settings.php',
 );

@@ -3,3 +3,9 @@
 1.0.2:
     - 'Created table amok_clients_testimonials'
     - builder_table_create_amok_clients_testimonials.php
+1.0.3:
+    - 'Created table amok_clients_work'
+    - builder_table_create_amok_clients_work.php
+1.0.4:
+    - 'Added foreign key from work to testimonials table'
+    - add_clients_work_to_testimonials_fk.php
